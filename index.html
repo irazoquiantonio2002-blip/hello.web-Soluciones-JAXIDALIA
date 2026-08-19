@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soluciones JAXIDALIA | Instalación de CCTV, Redes, Audio y Video y Automatización del Hogar</title>
+  <meta name="description" content="Instalación profesional de cámaras de seguridad CCTV, redes de internet, audio y video, y automatización del hogar. Tecnología de última generación con trato personalizado. Solicita tu cotización gratis.">
+  <meta name="keywords" content="instalación de cámaras de seguridad, CCTV, videovigilancia, redes de internet, cableado estructurado, automatización del hogar, casas inteligentes, domótica, audio y video, seguridad para negocios, Soluciones JAXIDALIA">
+  <meta property="og:title" content="Soluciones JAXIDALIA | CCTV, Redes, Audio/Video y Domótica">
+  <meta property="og:description" content="Seguridad, conectividad y automatización para tu hogar o negocio. Tecnología avanzada, trato personalizado.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo.png">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       LOADER
+  ══════════════════════════════════════════════════════ -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-bulb">
+      <i class="fa-solid fa-shield-halved"></i>
+    </div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="loader-text">Cargando...</span>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════════════ -->
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#hero" class="nav-logo" aria-label="Soluciones JAXIDALIA — inicio">
+          <div class="nav-logo-icon" aria-hidden="true">
+            <img src="assets/logo.png" alt="">
+          </div>
+          <div class="nav-logo-copy">
+            <span>Soluciones</span>
+            <span>JAXIDALIA</span>
+          </div>
+        </a>
+
+        <nav aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="#why">Por qué elegirnos</a></li>
+            <li><a href="#ambientes">Servicios</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contacto" class="btn-gold nav-cta" style="font-size:13px; padding:12px 26px;">
+          Solicitar Cotización
+        </a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mob-menu" aria-label="Menú móvil">
+      <a href="#why">Por qué elegirnos</a>
+      <a href="#ambientes">Servicios</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#contacto">Solicitar Cotización →</a>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════════════ -->
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            CCTV · Redes · Audio/Video · Domótica
+          </div>
+
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>Tu hogar y tu negocio,</span></span>
+            <span class="line"><span>más seguros y</span></span>
+            <span class="line"><span class="accent">más inteligentes.</span></span>
+          </h1>
+
+          <p class="hero-sub" id="hero-sub">
+            En <strong>Soluciones JAXIDALIA</strong> instalamos cámaras de seguridad CCTV, redes de internet, audio y video, y automatización del hogar con tecnología de última generación y un trato 100% personalizado.
+          </p>
+
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="#contacto" class="btn-gold">
+              Solicitar Cotización
+              <i class="fa-solid fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+            <a href="#ambientes" class="btn-outline">
+              <i class="fa-solid fa-shield-halved" style="font-size:15px; color:var(--gray);"></i>
+              Ver Servicios
+            </a>
+          </div>
+
+          <div class="hero-trust" id="hero-trust" aria-label="Credenciales">
+            <div class="trust-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              Servicio integral
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-bolt"></i>
+              Tecnología de punta
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-location-dot"></i>
+              [Ciudad, Estado]
+            </div>
+          </div>
+
+        </div><!-- /.hero-content -->
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         MARQUEE
+    ══════════════════════════════════════════════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════
+         WHY — Por qué elegirnos
+    ══════════════════════════════════════════════════ -->
+    <section id="why" aria-labelledby="why-heading">
+      <div class="container">
+
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">Nuestro enfoque</div>
+            <h2 class="why-quote" id="why-heading">
+              La seguridad de tu familia y tu negocio no da segundas oportunidades…
+              <em> por eso cuidamos cada detalle.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            Combinamos tecnología de vanguardia con asesoría personalizada para proteger y modernizar cualquier espacio, dentro y fuera de casa.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-video"></i>
+            </div>
+            <h3>Videovigilancia Confiable</h3>
+            <p>Cámaras CCTV de alta definición con monitoreo remoto, para ver tu hogar o negocio desde cualquier lugar, a cualquier hora.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-wifi"></i>
+            </div>
+            <h3>Redes que Funcionan</h3>
+            <p>Diseñamos e instalamos redes de internet estables y de alta velocidad, listas para cámaras, dispositivos inteligentes y el uso diario de toda la familia.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-house-signal"></i>
+            </div>
+            <h3>Automatización Inteligente</h3>
+            <p>Controla luces, accesos y dispositivos desde tu celular. Convertimos espacios comunes en hogares y negocios verdaderamente inteligentes.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-volume-high"></i>
+            </div>
+            <h3>Audio y Video Integrado</h3>
+            <p>Sistemas de sonido y video profesional para salas, terrazas y espacios comerciales, con instalación limpia y funcionamiento simple.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         AMBIENTES — Servicios
+    ══════════════════════════════════════════════════ -->
+    <section id="ambientes" aria-labelledby="amb-heading">
+      <div class="container">
+
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Nuestros Servicios</div>
+            <h2 class="section-title" id="amb-heading">
+              Un solo proveedor<br>
+              <span class="gold">para toda tu tecnología</span>
+            </h2>
+            <p style="color:var(--gray); margin-top:16px; font-size:15.5px; max-width:440px; line-height:1.7;">
+              Del cableado a la aplicación en tu celular: diseñamos, instalamos y damos soporte a cada solución.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">¿Qué necesitas instalar?</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid">
+
+          <!-- CCTV -->
+          <div class="amb-card reveal">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=1400&auto=format&fit=crop"
+              alt="Cámaras de videovigilancia CCTV instaladas en fila">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(23,184,214,0.15); border-color:rgba(23,184,214,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-video" style="color:var(--cyan-soft);"></i>
+              </div>
+              <h3>Videovigilancia CCTV</h3>
+              <p>Cámaras de alta definición, grabación continua y acceso remoto desde tu celular. Disuade, vigila y protege 24/7.</p>
+              <div class="amb-temp">Instalación · Configuración · Soporte</div>
+            </div>
+          </div>
+
+          <!-- Redes -->
+          <div class="amb-card reveal d1">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=1400&auto=format&fit=crop"
+              alt="Cableado de red y conectividad estructurada">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(11,99,198,0.18); border-color:rgba(96,165,250,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-wifi" style="color:#93c5fd;"></i>
+              </div>
+              <h3>Redes y Conectividad</h3>
+              <p>Cableado estructurado, WiFi de alto alcance y redes optimizadas para hogares y oficinas exigentes.</p>
+              <div class="amb-temp">Cableado · WiFi · Enlaces punto a punto</div>
+            </div>
+          </div>
+
+          <!-- Domótica -->
+          <div class="amb-card reveal d2">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1400&auto=format&fit=crop"
+              alt="Chapa inteligente controlada desde celular, automatización del hogar">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(95,225,216,0.15); border-color:rgba(95,225,216,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-house-signal" style="color:var(--cyan-soft);"></i>
+              </div>
+              <h3>Domótica y Automatización</h3>
+              <p>Ilumina, controla accesos y automatiza dispositivos con un toque. Tu hogar o negocio, siempre bajo tu control.</p>
+              <div class="amb-temp">Accesos · Iluminación · Control remoto</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PROYECTOS REALES
+    ══════════════════════════════════════════════════ -->
+    <section id="proyectos" aria-labelledby="proy-heading">
+      <div class="container">
+
+        <div class="proyectos-hdr reveal">
+          <div class="label">Trabajo real</div>
+          <h2 class="section-title" id="proy-heading">
+            Instalaciones <span class="gold">hechas por nosotros</span>
+          </h2>
+          <p>Así dejamos cada proyecto: orden, cuidado del espacio y equipos correctamente instalados.</p>
+        </div>
+
+        <div class="proyectos-grid">
+
+          <div class="proyecto-card reveal">
+            <img src="assets/real-redes.jpg" alt="Antenas de red instaladas en azotea de vivienda por Soluciones JAXIDALIA" loading="lazy">
+            <div class="proyecto-cap">
+              <span>Redes</span>
+              Enlace de internet en azotea residencial
+            </div>
+          </div>
+
+          <div class="proyecto-card reveal d1">
+            <img src="assets/real-audio-speaker.jpg" alt="Instalación de bocina de audio exterior en terraza" loading="lazy">
+            <div class="proyecto-cap">
+              <span>Audio y Video</span>
+              Bocinas para terraza exterior
+            </div>
+          </div>
+
+          <div class="proyecto-card reveal d2">
+            <img src="assets/real-audio-tv.jpg" alt="Pantalla integrada en terraza bajo pérgola" loading="lazy">
+            <div class="proyecto-cap">
+              <span>Audio y Video</span>
+              Pantalla integrada bajo pérgola
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PROCESO — How we work
+    ══════════════════════════════════════════════════ -->
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="container">
+
+        <div class="proceso-header reveal">
+          <div class="label">Cómo trabajamos</div>
+          <h2 class="section-title" id="proceso-heading">
+            Simple, rápido y <span class="gold">profesional</span>
+          </h2>
+          <p>De la visita técnica a la entrega final, te acompañamos en cada paso para un resultado sin sorpresas.</p>
+        </div>
+
+        <div class="proceso-grid">
+
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Diagnóstico en Sitio</h3>
+            <p>Visitamos tu hogar o negocio, evaluamos el espacio y tus necesidades de seguridad, conectividad o automatización. Sin costo, sin compromiso.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Propuesta y Cotización</h3>
+            <p>Te entregamos una cotización clara y detallada, con equipos, tiempos y alcance del proyecto — sin letras chiquitas.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Instalación y Capacitación</h3>
+            <p>Instalamos con orden y cuidado, y te explicamos cómo usar y controlar tu nuevo sistema desde el primer día.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SERVICIO DESTACADO — Videovigilancia inteligente
+    ══════════════════════════════════════════════════ -->
+    <section id="producto" aria-labelledby="prod-heading">
+      <div class="container">
+        <div class="producto-wrap">
+
+          <!-- Info -->
+          <div class="reveal">
+            <div class="label">Servicio Destacado</div>
+            <h2 class="section-title" id="prod-heading">
+              Videovigilancia inteligente<br>
+              <span class="gold">para ver, saber y actuar</span>
+            </h2>
+            <p class="producto-lead">
+              Cámaras CCTV de alta definición con visión nocturna y monitoreo remoto: observa tu hogar o negocio desde tu celular, estés donde estés.
+            </p>
+
+            <ul class="feature-rows" aria-label="Características de la videovigilancia">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-video"></i></div>
+                <div>
+                  <h4>Alta Definición Real</h4>
+                  <p>Imágenes nítidas de día y de noche, para identificar rostros, placas y movimiento con claridad.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                <div>
+                  <h4>Monitoreo Remoto</h4>
+                  <p>Revisa tus cámaras en vivo desde tu celular o computadora, en cualquier momento y desde cualquier lugar.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-server"></i></div>
+                <div>
+                  <h4>Grabación Continua</h4>
+                  <p>Historial de video respaldado para revisar lo que necesites, cuando lo necesites.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-bell"></i></div>
+                <div>
+                  <h4>Alertas Inteligentes</h4>
+                  <p>Notificaciones de movimiento en tiempo real, para que estés siempre un paso adelante.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Capacidades técnicas">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">HD/4K</span>
+                <span class="spec-name">Resolución</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">24/7</span>
+                <span class="spec-name">Grabación</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">100%</span>
+                <span class="spec-name">Acceso remoto</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">IR</span>
+                <span class="spec-name">Visión nocturna</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual: mockup de central de monitoreo -->
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <div class="led-panel-body"
+                   role="img" aria-label="Panel de monitoreo de cámaras de Soluciones JAXIDALIA">
+                <div class="cctv-topbar">
+                  <div class="rec"><span class="cctv-dot"></span> EN VIVO</div>
+                  <div class="time" id="cctv-time">00:00:00</div>
+                </div>
+                <div class="cctv-grid">
+                  <div class="cctv-tile"><div class="scan"></div><i class="fa-solid fa-door-open"></i></div>
+                  <div class="cctv-tile"><div class="scan"></div><i class="fa-solid fa-car"></i></div>
+                  <div class="cctv-tile"><div class="scan"></div><i class="fa-solid fa-house"></i></div>
+                  <div class="cctv-tile"><div class="scan"></div><i class="fa-solid fa-tree"></i></div>
+                </div>
+              </div>
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                4 cámaras — monitoreo activo
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-lock" style="color:var(--gold);"></i>
+                Acceso cifrado y seguro
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         STATS
+    ══════════════════════════════════════════════════ -->
+    <section id="stats" aria-label="Lo que nos distingue">
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="4" data-suffix=""
+                 aria-label="4 servicios integrados">0</div>
+            <div class="stat-lbl">Servicios integrados<br>en un solo proveedor</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="100" data-suffix="%"
+                 aria-label="100 por ciento a la medida">0</div>
+            <div class="stat-lbl">Soluciones a la medida<br>de cada cliente</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="24" data-suffix="/7"
+                 aria-label="24/7">0</div>
+            <div class="stat-lbl">Cámaras con monitoreo<br>remoto disponible</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="1" data-suffix=""
+                 aria-label="Un solo equipo">0</div>
+            <div class="stat-lbl">Equipo para instalación<br>y soporte</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SECTORES
+    ══════════════════════════════════════════════════ -->
+    <section id="sectores" aria-labelledby="sec-heading">
+      <div class="container">
+
+        <div class="sectores-hdr reveal">
+          <div class="label">Sectores</div>
+          <h2 class="section-title" id="sec-heading">
+            Ideal para <span class="gold">cada espacio</span>
+          </h2>
+          <p>Desde el hogar hasta grandes negocios, adaptamos cada solución a tu espacio.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-house sector-icon" aria-hidden="true"></i>
+            <h3>Hogares</h3>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-building sector-icon" aria-hidden="true"></i>
+            <h3>Negocios y Oficinas</h3>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-store sector-icon" aria-hidden="true"></i>
+            <h3>Comercios</h3>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-city sector-icon" aria-hidden="true"></i>
+            <h3>Condominios</h3>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-warehouse sector-icon" aria-hidden="true"></i>
+            <h3>Bodegas e Industria</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CONTACTO
+    ══════════════════════════════════════════════════ -->
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Hablemos de <span class="gold">tu seguridad</span>
+          </h2>
+          <p>Cuéntanos qué necesitas y te ayudamos a encontrar la mejor solución para tu hogar o negocio.</p>
+        </div>
+
+        <div class="contact-box reveal">
+
+          <!-- Info panel -->
+          <div class="contact-info">
+            <h3>Atención Personalizada</h3>
+            <p class="ci-sub">Instalamos y damos soporte a tus sistemas de seguridad, redes y automatización con trato cercano y tecnología confiable.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Cobertura</h4>
+                  <p>[Ciudad, Estado]</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>WhatsApp</h4>
+                  <p>Escríbenos y cotizamos en minutos.</p>
+                  <a href="#contacto" data-wa-link data-wa-message="Hola, visité su sitio web y me gustaría más información."
+                     class="ci-wa-link">
+                    Abrir chat →
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div><!-- /.contact-info -->
+
+          <!-- Form -->
+          <div class="contact-form-wrap">
+            <h3>Solicitar Cotización</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Ej. Nombre Apellido" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">¿Qué necesitas?</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Cotización general</option>
+                    <option>Instalación de CCTV</option>
+                    <option>Redes e Internet</option>
+                    <option>Audio y Video</option>
+                    <option>Automatización del Hogar</option>
+                    <option>Otro</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Detalle del proyecto</label>
+                <textarea id="f-msg" class="form-control" rows="4" required
+                          placeholder="Describe el espacio, cantidad de cámaras o cualquier detalle relevante…"></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                Enviar a WhatsApp
+              </button>
+              <p class="form-note">
+                Al enviar serás redirigido a WhatsApp para continuar la conversación.
+              </p>
+            </form>
+          </div>
+
+        </div><!-- /.contact-box -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <div class="footer-logo-icon"><img src="assets/logo.png" alt=""></div>
+          <span>Soluciones JAXIDALIA</span>
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> Soluciones JAXIDALIA. Todos los derechos reservados. [Ciudad, Estado].
+        </p>
+        <div class="footer-socials">
+          <a href="#contacto" data-wa-link data-wa-message="Hola, visité su sitio web y me gustaría más información."
+             class="footer-soc" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════════════════
+       FLOATING WHATSAPP
+  ══════════════════════════════════════════════════════ -->
+  <a href="#contacto" data-wa-link data-wa-message="Hola, visité su sitio web y me gustaría más información."
+     class="wa-btn" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
