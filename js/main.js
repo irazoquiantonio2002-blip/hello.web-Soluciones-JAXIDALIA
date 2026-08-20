@@ -1,12 +1,8 @@
 (function () {
   'use strict';
 
-  /* ── Configuración de contacto ─────────────────────
-     TODO: reemplaza con el número real de WhatsApp de
-     Soluciones JAXIDALIA (formato: 52 + lada + número,
-     solo dígitos, sin espacios ni signos). Mientras tanto
-     los botones de WhatsApp llevan al formulario de contacto. */
-  var WHATSAPP_NUMBER = ''; // ej. '5215512345678'
+  /* ── Configuración de contacto ───────────────────── */
+  var WHATSAPP_NUMBER = '5215582445594';
 
   function waLink(message) {
     if (!WHATSAPP_NUMBER) return '#contacto';
